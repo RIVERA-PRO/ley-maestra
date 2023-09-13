@@ -1,0 +1,17 @@
+.EmpresasContain{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 2rem;
+    width: 100%;
+    height: 15vh;
+    background-color: #5b5a5a10;
+    padding: 0px 10%;
+    overflow-x: scroll;
+}
+
+.EmpresasContain img{
+    width: 120px;
+    height: auto;
+}

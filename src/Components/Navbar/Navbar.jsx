@@ -53,18 +53,18 @@ export default function Navbar() {
                     <div className='enlaces'>
 
 
-                        <Anchor to={`/`} >HOGAR
+                        <Anchor onClick={() => { document.querySelector('.heroContain').scrollIntoView({ behavior: 'smooth' }); }} >HOGAR
                         </Anchor>
                         <Anchor onClick={() => { document.querySelector('.aboutContain').scrollIntoView({ behavior: 'smooth' }); }} >ACERCA DE
                         </Anchor>
-                        <Anchor onClick={() => { document.querySelector('.ServiciosContain').scrollIntoView({ behavior: 'smooth' }); }} >SERVICIOS
+                        <Anchor onClick={() => { document.querySelector('.capacidadesContain').scrollIntoView({ behavior: 'smooth' }); }} >SERVICIOS
                         </Anchor>
-                        <Anchor onClick={() => { document.querySelector('.TestimoniosConatin').scrollIntoView({ behavior: 'smooth' }); }} >ELEMENTOS
+                        <Anchor onClick={() => { document.querySelector('.areasContain').scrollIntoView({ behavior: 'smooth' }); }} >ELEMENTOS
                         </Anchor>
 
-                        <Anchor onClick={() => { document.querySelector('.ContactoContainComponent').scrollIntoView({ behavior: 'smooth' }); }} >BLOG
+                        <Anchor onClick={() => { document.querySelector('.AbogadosContain').scrollIntoView({ behavior: 'smooth' }); }} >ABOGADOS
                         </Anchor>
-                        <Anchor onClick={() => { document.querySelector('.ContactoContainComponent').scrollIntoView({ behavior: 'smooth' }); }} className='contact-BTN'>CONTACTO</Anchor>
+                        <Anchor onClick={() => { document.querySelector('.FooterContain').scrollIntoView({ behavior: 'smooth' }); }} className='contact-BTN'>CONTACTO</Anchor>
 
 
 

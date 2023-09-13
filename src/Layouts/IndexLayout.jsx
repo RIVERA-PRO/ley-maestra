@@ -10,6 +10,10 @@ import About from '../Components/About/About'
 import Capacidades from '../Components/Capacidades/Capacidades'
 import Areas from '../Components/Areas/Areas'
 import Abogados from '../Components/Abogados/Abogados'
+import Elegirnos from '../Components/Elegirnos/Elegirnos'
+import Banner from '../Components/Banner/Banner'
+import BanerBg from '../Components/BanerBg/BanerBg'
+import Empresas from '../Components/Empresas/Empresas'
 export default function IndexLayout() {
     return (
         <div>
@@ -20,6 +24,10 @@ export default function IndexLayout() {
             <Capacidades />
             <Areas />
             <Abogados />
+            <Banner />
+            <Elegirnos />
+            <BanerBg />
+            <Empresas />
             <Footer />
             <Developer />
             <ButonScroll />

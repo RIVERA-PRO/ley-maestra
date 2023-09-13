@@ -1,0 +1,70 @@
+.ElegirnosContain{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(241, 225, 204, 0.286);
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 10%;
+}
+
+.ElegirnosContain p{
+    margin-top: 2rem;
+    color: var(--text-color2);
+    font-size: 15px;
+    text-align: center;
+}
+
+.elegirnosCards{
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+    display: grid;
+    grid-auto-rows: max-content;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    justify-content: space-between;
+    padding: 50px 0px;
+    background-color: transparent;
+    gap: 1rem;
+    align-items: center;
+}
+
+.deFlexCardRight{
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
+
+.deFlexCardRight img{
+    width: 90px;
+}
+
+.deFlexCardLeft img{
+    width: 90px;
+}
+.deFlexCardLeft{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.elegirnosCards h4{
+    color: var(--text-color2);
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.elegirnosCards h3{
+    color: var(--text-color);
+    font-size: 15px;
+}
+
+.imgShap {
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.imgShap img{
+    width: 100%;
+    object-fit: cover;
+    height: auto;
+}
