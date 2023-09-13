@@ -8,6 +8,7 @@ import Hero from '../Components/Hero/Hero'
 import Cards from '../Components/Cards/Cards'
 import About from '../Components/About/About'
 import Capacidades from '../Components/Capacidades/Capacidades'
+import Areas from '../Components/Areas/Areas'
 export default function IndexLayout() {
     return (
         <div>
@@ -16,6 +17,7 @@ export default function IndexLayout() {
             <Cards />
             <About />
             <Capacidades />
+            <Areas />
             <Footer />
             <Developer />
             <ButonScroll />
