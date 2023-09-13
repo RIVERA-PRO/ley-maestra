@@ -9,6 +9,7 @@ import Cards from '../Components/Cards/Cards'
 import About from '../Components/About/About'
 import Capacidades from '../Components/Capacidades/Capacidades'
 import Areas from '../Components/Areas/Areas'
+import Abogados from '../Components/Abogados/Abogados'
 export default function IndexLayout() {
     return (
         <div>
@@ -18,6 +19,7 @@ export default function IndexLayout() {
             <About />
             <Capacidades />
             <Areas />
+            <Abogados />
             <Footer />
             <Developer />
             <ButonScroll />
