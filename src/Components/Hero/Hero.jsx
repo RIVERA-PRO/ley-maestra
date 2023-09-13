@@ -19,7 +19,7 @@ export default function Hero() {
                     DESDE EL SIGLO XVI.</p>
 
 
-                <Anchor onClick={() => { document.querySelector('.ContactoContainComponent').scrollIntoView({ behavior: 'smooth' }); }} className='btn-next'>Empezar</Anchor>
+                <Anchor onClick={() => { document.querySelector('.aboutContain').scrollIntoView({ behavior: 'smooth' }); }} className='btn-next'>Empezar</Anchor>
 
 
             </div>

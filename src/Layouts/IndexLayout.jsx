@@ -6,12 +6,14 @@ import Developer from '../Components/Developer/Developer'
 import ButonScroll from '../Components/ButonScroll/ButonScroll'
 import Hero from '../Components/Hero/Hero'
 import Cards from '../Components/Cards/Cards'
+import About from '../Components/About/About'
 export default function IndexLayout() {
     return (
         <div>
             <Header />
             <Hero />
             <Cards />
+            <About />
             <Footer />
             <Developer />
             <ButonScroll />

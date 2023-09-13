@@ -55,7 +55,7 @@ export default function Navbar() {
 
                         <Anchor to={`/`} >HOGAR
                         </Anchor>
-                        <Anchor onClick={() => { document.querySelector('.PortfolioContain').scrollIntoView({ behavior: 'smooth' }); }} >ACERCA DE
+                        <Anchor onClick={() => { document.querySelector('.aboutContain').scrollIntoView({ behavior: 'smooth' }); }} >ACERCA DE
                         </Anchor>
                         <Anchor onClick={() => { document.querySelector('.ServiciosContain').scrollIntoView({ behavior: 'smooth' }); }} >SERVICIOS
                         </Anchor>
