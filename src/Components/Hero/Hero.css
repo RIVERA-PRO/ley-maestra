@@ -2,7 +2,7 @@
     background-image: url(../../img/banner-img.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 120vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,14 +12,14 @@
 }
 .heroText{
     background: linear-gradient(90deg, rgba(0, 4, 16, 0.845) 4%, rgba(0, 0, 0, 0.377) 100%);
-    height: 100vh;
+    height: 120vh;
     width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
     padding: 10px 10%;
     gap: 2rem;
-    padding-top: 10vh;
+   
 }  
 .heroText span{
     
