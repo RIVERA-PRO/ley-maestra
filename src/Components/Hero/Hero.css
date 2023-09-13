@@ -1,0 +1,112 @@
+.heroContain{
+    background-image: url(../../img/banner-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+
+   
+}
+.heroText{
+    background: linear-gradient(90deg, rgba(0, 4, 16, 0.845) 4%, rgba(0, 0, 0, 0.377) 100%);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 10%;
+    gap: 2rem;
+    padding-top: 10vh;
+}  
+.heroText span{
+    
+    width: 5px;
+    background-color: var(--color3);
+  
+   
+}
+
+.deFlex  span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.deFlex {
+    display: flex;
+    gap: 2rem;
+}
+
+.deColumn{
+    display: flex;
+
+    flex-direction: column;
+   
+}
+.heroText h1{
+    font-size: 45px;
+    color: var(--blanco);
+    width: 60%;
+    line-height: 4rem;
+}
+.heroText h2{
+    font-size: 20px;
+    color: var(--blanco);
+    font-weight: 400;
+}
+
+.heroText p{
+    font-size: 15px;
+    color: var(--blanco);
+    line-height: 2rem;
+    width: 60%;
+}
+
+.btn-next{
+    background: linear-gradient(90deg, var(--color2) 4%,var(--color2) 100%);
+    padding: 14px 20px;
+    width: 150px;
+    border-radius: 10px;
+    color: var(--blanco);
+    text-decoration: none;
+    text-align: center;
+}
+@media (max-width: 1024px) {
+    .heroText{
+       
+        padding: 10px 5%;
+    }
+    .heroText h1{
+        font-size: 40px;
+       
+        width: 100%;
+ 
+    }
+    .heroText p{
+        font-size: 14px;
+      
+        width: 100%;
+    }
+}
+@media (max-width: 500px) {
+    
+    .heroText h1{
+        font-size: 30px;
+        line-height: 2.7rem;
+    
+    }
+    .heroText h2{
+        font-size: 16px;
+      
+    
+    }
+
+    .deFlex {
+      
+        gap: 1rem;
+    }    
+}

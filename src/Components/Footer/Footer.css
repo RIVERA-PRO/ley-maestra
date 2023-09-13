@@ -1,0 +1,82 @@
+.FooterContain{
+    background-color: var(--bg-color2);
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+    display: grid;
+    grid-auto-rows: max-content;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 4rem;
+    place-content: center;
+    padding: 100px 10%;
+    background-image: url(../../img/footer-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footerText{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footerText a{
+    text-decoration: none;
+    color: var(--text-color2);
+  
+}
+.footerText a:hover{
+    text-decoration: none;
+    color: var(--blanco);
+  
+}
+.footerText h3{
+    text-decoration: none;
+    color: var(--blanco);
+    font-size: 19px;
+}
+.footerText img{
+    width: 160px;
+    object-fit: cover;
+
+}
+
+.footerText p{
+
+    color: var(--text-color2);
+
+}
+
+.redes-sociales-footer a{
+  color: var(--blanco);
+  background-color: #323030;
+  padding: 6px 7px;
+  border-radius: 100%;
+  text-align: center;
+}
+.redes-sociales-footer{
+    display: flex;
+    gap: 10px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+.form input{
+    padding: 10px 20px;
+    border: none;
+    background-color: var(--blanco);
+    border-radius: 10px;
+    
+}
+.form button{
+    padding: 10px 20px;
+    border: none;
+    background-color: var(--color2);
+    border-radius: 10px;
+    color: var(--blanco);
+    cursor: pointer;
+}
