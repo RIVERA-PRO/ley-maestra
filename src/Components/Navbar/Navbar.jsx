@@ -53,7 +53,7 @@ export default function Navbar() {
                     <div className='enlaces'>
 
 
-                        <Anchor to={`/header`} >HOGAR
+                        <Anchor to={`/`} >HOGAR
                         </Anchor>
                         <Anchor onClick={() => { document.querySelector('.aboutContain').scrollIntoView({ behavior: 'smooth' }); }} >ACERCA DE
                         </Anchor>

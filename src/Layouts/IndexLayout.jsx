@@ -7,6 +7,7 @@ import ButonScroll from '../Components/ButonScroll/ButonScroll'
 import Hero from '../Components/Hero/Hero'
 import Cards from '../Components/Cards/Cards'
 import About from '../Components/About/About'
+import Capacidades from '../Components/Capacidades/Capacidades'
 export default function IndexLayout() {
     return (
         <div>
@@ -14,6 +15,7 @@ export default function IndexLayout() {
             <Hero />
             <Cards />
             <About />
+            <Capacidades />
             <Footer />
             <Developer />
             <ButonScroll />
